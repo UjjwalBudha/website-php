@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$servername = "mysql01-srv";
-$username = "root";
-$password = "mysql100";
-$dbname = "database"; // Replace with your actual database name
+$servername = "localhost";
+$username = "ujwal";
+$password = "root";
+$dbname = "registration"; // Replace with your actual database name
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
