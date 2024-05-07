@@ -49,7 +49,7 @@
     <?php
     $servername = "localhost";
     $username = "ujwal";
-    $password = "root";
+    $password = "$user_password";
     $dbname = "registration"; // Replace with your actual database name
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
